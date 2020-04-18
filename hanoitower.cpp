@@ -39,7 +39,7 @@ void declareState (char type){
     
     if (type == 'A'){
     if (start.size() == 0) {
-        cout << " nothing" << endl;
+        cout << " nothing";
     } 
     else{
     for (int i = 0; i < start.size(); i++){
@@ -49,7 +49,7 @@ void declareState (char type){
     }
     else if(type == 'B'){
         if (mid.size() == 0) {
-            cout << " nothing" << endl;
+            cout << " nothing";
         }
         else{
         for (int i = 0; i < mid.size(); i++){
@@ -60,7 +60,7 @@ void declareState (char type){
     }
     else if(type == 'C'){
          if (last.size() == 0) {
-        cout << " nothing" << endl;
+        cout << " nothing";
         }
         else{
         for (int i = 0; i < last.size(); i++){
