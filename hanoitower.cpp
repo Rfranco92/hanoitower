@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
 	cout << "Enter value of discs, please make it at most 6" << endl;
 	cin>>x;
 	for (int i = 0; i < x; i++){
-	start.insert(i, i+1);
+	start.insert(start.end(), i+1);
 	}
 	if (x > 6){
 	    cout << "Too many discs for this equation" << endl;
